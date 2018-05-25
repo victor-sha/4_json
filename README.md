@@ -1,6 +1,7 @@
 # Prettify JSON
 
 [TODO. There will be project description]
+Pretty printing
 
 # Quickstart
 
