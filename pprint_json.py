@@ -13,11 +13,11 @@ def load_data(filepath):
         print("Wrong file or file path")
 
 
-def pretty_print_json(data):
-    json_obj = json.loads(data)
+def pretty_print_json(file_data):
+    json_obj = json.loads(file_data)
     return json.dumps(json_obj, indent=4, ensure_ascii=False, sort_keys=True)
 
 
 if __name__ == '__main__':
-    data = load_data(sys.argv[1])
-    print(pretty_print_json(data))
+    file_data = load_data(sys.argv[1])
+    print(pretty_print_json(file_data))
